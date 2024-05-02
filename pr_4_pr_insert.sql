@@ -40,8 +40,7 @@ values
     ('Jennifer', 480, 5100, 'Taylor'),
     ('Christopher', 580, 6300, 'Anderson');
 
--- Для таблиці DoctorsSpecializations_PR
-/*insert into DoctorsSpecializations_PR ([Doctor_Id], [SpecializationId])
+insert into [DoctorsSpecializations_PR] ([Doctor_Id], [SpecializationId])
 values 
     (1, 1),
     (2, 2),
@@ -66,7 +65,6 @@ values
     (10, 3),
     (11, 4);*/
 
--- Для таблиці Sponsor_PR
 insert into [Sponsor_PR] ([Name])
 values 
     ('Umbrella Corporation'),
